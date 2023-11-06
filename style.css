@@ -1,0 +1,89 @@
+section {
+  margin: 10rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+}
+
+section h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #1b75bb;
+}
+
+section #desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #555;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+.courses-container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 70px;
+}
+
+.courses {
+  padding: 10px;
+  /* height: 12em; */
+  width: 20em;
+  color: #555;
+  border-radius: 15px;
+  padding-bottom: 2em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+  border-radius: 10px;
+}
+
+.course-short {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(27, 117, 187);
+}
+
+/* .course-full {
+  margin-top: 0px;
+} */
+
+.courses .button {
+  border: 2px soild;
+  color: rgb(27, 117, 187);
+  border: 1px solid rgb(27, 117, 187);
+  background-color: rgba(27, 117, 187, 0.05);
+  border-radius: 40px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+/* .button:nth-child(2) {
+  color: rgb(251, 255, 0);
+  border: 1px solid rgb(251, 255, 0);
+
+} */
+
+.courses .fee {
+  color: #999;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* .courses span {
+  color: #363636;
+} */
